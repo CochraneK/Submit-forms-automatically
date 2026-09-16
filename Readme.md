@@ -1,35 +1,41 @@
+<div align="center">
 
-1.问卷星CSDN实战网址
+# Submit Forms Automatically
 
-https://blog.csdn.net/qq_42967398/article/details/106753945?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-5.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-5.nonecase
+**Historical Python automation scripts for browser-based form submission**
 
-2.问卷星代码
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/language-Python-3776AB">
+  <img alt="Status" src="https://img.shields.io/badge/status-historical%20archive-8A8A8A">
+  <img alt="Automation" src="https://img.shields.io/badge/workflow-browser%20automation-6C63FF">
+</p>
 
-文件“问卷星.py”
+</div>
 
-对应网址：
+---
 
-https://www.wjx.cn/jq/50873339.aspx
+## About
 
-3.疫情打卡代码
+This is an early automation experiment for submitting web forms with Python and a browser driver. The repository includes a historical campus health check-in script and notes that originally accompanied the setup.
 
-文件“疫情打卡脚本.py”
+> [!WARNING]
+> The original target services and login flows are old and may no longer exist or may have changed. Treat this repository as an archive, not a current turnkey automation tool. Do not automate third-party systems without authorization, and never commit live credentials or personal data.
 
-对应网址：
+## Original workflow
 
-http://xgfx.bnuz.edu.cn/xsdtfw/sys/emapfunauth/pages/funauth-login.do?service=%2Fxsdtfw%2Fsys%2Fswmxsyqxxsjapp%2F*default%2Findex.do#/
+The project notes covered:
 
-4.如果从来没有接触过python，想要实现上述3步，需要：
+1. browser-based form automation;
+2. Python + Chrome + ChromeDriver setup;
+3. packaging a script for local execution;
+4. running it through a scheduled task.
 
-安装好python，安装好需要的库，安装好chrome浏览器，安装chromedriver
+## Repository
 
-Chromedriver教程
+- `自动疫情打卡.py` — historical automation script;
+- `Readme.md` — project notes;
+- `.gitignore` — ignored local files.
 
-https://blog.csdn.net/bigkaimyc/article/details/103543750
+## Reuse
 
-5.设定为计算机定时任务
-
-Pyinstall 打包
-
-定时任务
-
+If adapting the code for a modern, authorized workflow, re-check selectors, authentication, browser-driver compatibility, service terms, and data-handling requirements before running it.
